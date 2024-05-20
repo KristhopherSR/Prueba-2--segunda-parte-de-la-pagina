@@ -11,16 +11,21 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/logestilo.css">
+    <script src="js/sesion.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
 </head>
-<body>
-    <div class="background"></div>
+<body style="font-family: 'Times New Roman', Times, serif;">
+  <div class="background"></div>
   <div class="card">
-    <img class="logo" src="img/juanpark.png" alt="">
-    <h2>Bienvenido </h2>
+    <img class="logo" src="img/juanpark.png" alt="" style="margin-top: 15px;">
+    <h2 style="font-family:Arial, Helvetica, sans-serif;">Bienvenido </h2>
     <form class="form" action="">
-      <input type="email" placeholder="Email" name="" id="">
-      <input type="password" placeholder="Contraseña">
-      <button class="btn-login">Sign In</button>
+      <input type="email" placeholder="Email" name="" id="email">
+      <input type="password" placeholder="Contraseña" id="contraseña">
+      <button class="btn-login" onclick="validarFormulario(); redireccionar()" >Iniciar Sesion</button>
+      <a href="registro.html">Registrarse</a><br>
+      <a href="index.html">Volver al Inicio</a>
     </form>
   </div>
 </body>
