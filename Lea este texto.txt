@@ -1,0 +1,10 @@
+
+
+para hacer las validaciones, como no tenemos base de datos.
+
+en la pagina de Login.html
+
+email: jhondoe@gmail.com
+contraseña: Contrasena123
+
+en la pagina de registro.html puede agregar la información que quiera, siempre y cuando cumpla con las validaciones
